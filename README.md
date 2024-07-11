@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Atom244"><img src="https://www.dropbox.com/scl/fi/80xkk8of2fsoxihi0xc2h/rndcatpreviewpng.png?rlkey=mc35p4lnsiukeeg9k5556764l&st=h1pmxhg8&dl=1" alt="Random cat module" width="1024"></a>
+  <a href="https://github.com/Atom244"><img src="https://github.com/Atom244/icons-for-projects/blob/main/rndcatpreviewpng.png" alt="Random cat module" width="1024"></a>
   <br>
   rnd_cat
   <br>
@@ -73,7 +73,7 @@ The module is based on getting images from this site:
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/Atom244"><img src="https://www.dropbox.com/scl/fi/g7onxkravpirf79uaz7ze/cat.png?rlkey=01n3lh89xc203cnxi9vroxup1&st=hdx8rn9c&dl=1" alt="Alien cat" width="256"></a>
+  <a href="https://github.com/Atom244"><img src="https://github.com/Atom244/icons-for-projects/blob/main/cat.png" alt="Alien cat" width="256"></a>
   <br>
   Thanks for using my module or viewing my repository!!!
   <br>
