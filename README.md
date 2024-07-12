@@ -12,7 +12,8 @@
 
 <p align="center">
   <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a>
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a>
 
 </p>
 
