@@ -13,7 +13,7 @@ def cat(filename: str = 'default_cat_img', format: str = 'jpg'):
 
 def cat_say(filename: str = 'default_cat_say_img', text: str = 'Hello', format: str = 'jpg'):
     """
-    Will return a random cat saying <text>. The text does not support special characters and emoticons.
+    Will return a random cat saying <text>. The text does not support special characters and emoticons or it may not work correctly.
     """
     img_data = requests.get(f'https://cataas.com/cat/says/{text}?fontSize=50&fontColor=white').content
     with open(f'{filename}.{format}', 'wb') as handler:
