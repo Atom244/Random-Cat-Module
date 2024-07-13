@@ -83,7 +83,7 @@ Arguments: filename, format, text, fontSize, fontColor
 
 ```py
 import rnd_cat
-rnd_cat.cat_say_edit(filename='default_cat_gif', text+'Hello', fontSize=50, fontColor='red', format='jpg')
+rnd_cat.cat_say_edit(filename='default_cat_gif', text='Hello', fontSize=50, fontColor='red', format='jpg')
 ```
 
 ## Credits
