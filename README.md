@@ -86,7 +86,11 @@ import rnd_cat
 rnd_cat.cat_say_edit(filename='default_cat_gif', text='Hello', fontSize=50, fontColor='red', format='jpg')
 ```
 
+<<<<<<< HEAD
 • cat_tag() - Will return a random cat with a <tag>, You can combine multiple tags with <tag> separator. [All tags here](https://cataas.com/api/tags)  
+=======
+• cat_tag() - Will return a random cat with a tag, You can combine multiple tags with tag separator. [All tags here](https://cataas.com/api/tags)  
+>>>>>>> d7faa06b78cf4e33f36f19746a64a72010bb3253
 Arguments: filename, format, tag
 
 ```py
@@ -94,7 +98,11 @@ import rnd_cat
 rnd_cat.cat_tag(filename="default_cat_tag_img", format="jpg", tag="orange,cute")
 ```
 
+<<<<<<< HEAD
 • cat_tag_say() - Will return a random cat with a <tag> and saying <text>.  
+=======
+• cat_tag_say() - Will return a random cat with a tag and saying text.  
+>>>>>>> d7faa06b78cf4e33f36f19746a64a72010bb3253
 Arguments: filename, format, tag, text
 
 ```py
@@ -110,7 +118,11 @@ import rnd_cat
 cat_type(filename: str = "default_cat_type_img", format: str = "jpg", type: str = "square")
 ```
 
+<<<<<<< HEAD
 • cat_filter() - Will return a random cat with image filtered by <filter> (blur, mono, negate).  
+=======
+• cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).  
+>>>>>>> d7faa06b78cf4e33f36f19746a64a72010bb3253
 Arguments: filename, format, filter
 
 ```py
@@ -152,3 +164,4 @@ The module is based on getting images from this site:
   Thanks for using my module or viewing my repository!!!
   <br>
 </h1>
+
