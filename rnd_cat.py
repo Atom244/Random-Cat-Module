@@ -88,7 +88,7 @@ def cat_filter(
     filename: str = "default_cat_filter_img", format: str = "jpg", filter: str = "mono"
 ):
     """
-    Will return a random cat with image filtered by <filter> (blur, mono, negate or custom).
+    Will return a random cat with image filtered by <filter> (blur, mono, negate).
     """
     img_data = requests.get(f"https://cataas.com/cat?filter={filter}").content
     with open(f"{filename}.{format}", "wb") as handler:
@@ -108,7 +108,7 @@ def cat_combo(
     format: str = "jpg",
 ):
     """
-    A mix of most of the arguments!.
+    A mix of most of the arguments!
     """
     if is_gif == True:
         gif = "/gif"
