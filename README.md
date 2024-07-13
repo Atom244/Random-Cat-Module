@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Atom244"><img src="https://github.com/Atom244/icons-for-projects/blob/main/rndcatpreviewpng.png" alt="Random cat module" width="1024"></a>
+  <a href="https://github.com/Atom244"><img src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/rndcatpreviewpng.png" alt="Random cat module" width="1024"></a>
   <br>
   rnd_cat
   <br>
@@ -19,7 +19,7 @@
 
 #### The module is already on PyPi!
 
- <a href="https://pypi.org/project/rnd-cat/"><image src="https://github.com/Atom244/icons-for-projects/blob/main/pypicat.png" alt="Flying cat" width="50%"></a>
+<a href="https://pypi.org/project/rnd-cat/"><image src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/pypicat.png" alt="Flying cat" width="50%"></a>
 
 - Installing with [pip](https://pypi.org/project/pip/) :
 
@@ -86,6 +86,59 @@ import rnd_cat
 rnd_cat.cat_say_edit(filename='default_cat_gif', text='Hello', fontSize=50, fontColor='red', format='jpg')
 ```
 
+• cat_tag() - Will return a random cat with a tag, You can combine multiple tags with tag separator. [All tags here](https://cataas.com/api/tags)  
+Arguments: filename, format, tag
+
+```py
+import rnd_cat
+rnd_cat.cat_tag(filename="default_cat_tag_img", format="jpg", tag="orange,cute")
+```
+
+• cat_tag_say() - Will return a random cat with a tag and saying text.  
+Arguments: filename, format, tag, text
+
+```py
+import rnd_cat
+cat_tag_say(filename="default_cat_tag_say_img", format="jpg", tag="orange,cute", text="Hello")
+```
+
+• cat_type() - Will return a random cat with image <type> (xsmall, small, medium or square).  
+Arguments: filename, format, type
+
+```py
+import rnd_cat
+cat_type(filename: str = "default_cat_type_img", format: str = "jpg", type: str = "square")
+```
+
+• cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).  
+Arguments: filename, format, filter
+
+```py
+import rnd_cat
+cat_filter(filename: str = "default_cat_filter_img", format: str = "jpg", filter: str = "mono")
+```
+
+<a href="https://pypi.org/project/rnd-cat/"><image src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/ggdd.png" alt="Flying cat" width="20%"></a>
+
+• cat_combo() - A mix of most of the arguments!  
+Arguments: filename, is_gif, is_say, filter, is_filtered, text, fontSize, fontColor, type, format
+
+```py
+import rnd_cat
+cat_combo(
+    filename: str = "default_cat_combo",
+    is_gif: bool = True,
+    is_say: bool = True,
+    filter: str = "mono",
+    is_filtered: bool = True,
+    text: str = "Hello",
+    fontSize: int = 20,
+    fontColor: str = "orange",
+    type: str = "square",
+    format: str = "jpg",
+)
+```
+
 ## Credits
 
 The module is based on getting images from this site:
@@ -94,8 +147,9 @@ The module is based on getting images from this site:
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/Atom244"><img src="https://github.com/Atom244/icons-for-projects/blob/main/cat.png" alt="Alien cat" width="256"></a>
+  <a href="https://github.com/Atom244"><img src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/cat.png" alt="Alien cat" width="256"></a>
   <br>
   Thanks for using my module or viewing my repository!!!
   <br>
 </h1>
+
