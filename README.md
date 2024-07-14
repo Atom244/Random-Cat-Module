@@ -15,6 +15,8 @@
 
 </p>
 
+<a href="README.md"><kbd>**EN**</kbd></a>/<a href="README_RU.md"><kbd>**RU**</kbd></a>
+
 ## Installing
 
 #### The module is already on PyPi!
