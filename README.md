@@ -101,7 +101,7 @@ Arguments: filename, format, tag, text
 
 ```py
 import rnd_cat
-cat_tag_say(filename="default_cat_tag_say_img", format="jpg", tag="orange,cute", text="Hello")
+rnd_cat.cat_tag_say(filename="default_cat_tag_say_img", format="jpg", tag="orange,cute", text="Hello")
 ```
 
 • cat_type() - Will return a random cat with image <type> (xsmall, small, medium or square).  
@@ -109,7 +109,7 @@ Arguments: filename, format, type
 
 ```py
 import rnd_cat
-cat_type(filename = "default_cat_type_img", format = "jpg", type = "square")
+rnd_cat.cat_type(filename = "default_cat_type_img", format = "jpg", type = "square")
 ```
 
 • cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).
@@ -118,7 +118,7 @@ Arguments: filename, format, filter
 
 ```py
 import rnd_cat
-cat_filter(filename = "default_cat_filter_img", format = "jpg", filter = "mono")
+rnd_cat.cat_filter(filename = "default_cat_filter_img", format = "jpg", filter = "mono")
 ```
 
 <a href="https://pypi.org/project/rnd-cat/"><image src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/ggdd.png" alt="Flying cat" width="20%"></a>
@@ -128,7 +128,7 @@ Arguments: filename, is_gif, is_say, filter, is_filtered, text, fontSize, fontCo
 
 ```py
 import rnd_cat
-cat_combo(
+rnd_cat.cat_combo(
     filename = "default_cat_combo",
     is_gif = True,
     is_say = True,
