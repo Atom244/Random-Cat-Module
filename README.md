@@ -70,7 +70,7 @@ import rnd_cat
 rnd_cat.cat_say(filename='default_cat_say_img', text='Hello', format='jpg')
 ```
 
-• cat_gif() - Will return a random gif cat.  
+• cat_gif() - Will return a random cat saying editable text.  
 Arguments: filename
 
 ```py
@@ -86,10 +86,7 @@ import rnd_cat
 rnd_cat.cat_say_edit(filename='default_cat_gif', text='Hello', fontSize=50, fontColor='red', format='jpg')
 ```
 
-
-
-
-• cat_tag() - Will return a random cat with a tag, You can combine multiple tags with tag separator. [All tags here](https://cataas.com/api/tags)  
+• cat_tag() - Will return a random cat with a tag, You can combine multiple tags with tag separator. [All tags here](https://cataas.com/api/tags)
 
 Arguments: filename, format, tag
 
@@ -98,10 +95,7 @@ import rnd_cat
 rnd_cat.cat_tag(filename="default_cat_tag_img", format="jpg", tag="orange,cute")
 ```
 
-
-
-
-• cat_tag_say() - Will return a random cat with a tag and saying text.  
+• cat_tag_say() - Will return a random cat with a tag and saying text.
 
 Arguments: filename, format, tag, text
 
@@ -118,10 +112,7 @@ import rnd_cat
 cat_type(filename: str = "default_cat_type_img", format: str = "jpg", type: str = "square")
 ```
 
-
-
-
-• cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).  
+• cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).
 
 Arguments: filename, format, filter
 
@@ -138,16 +129,16 @@ Arguments: filename, is_gif, is_say, filter, is_filtered, text, fontSize, fontCo
 ```py
 import rnd_cat
 cat_combo(
-    filename: str = "default_cat_combo",
-    is_gif: bool = True,
-    is_say: bool = True,
-    filter: str = "mono",
-    is_filtered: bool = True,
-    text: str = "Hello",
-    fontSize: int = 20,
-    fontColor: str = "orange",
-    type: str = "square",
-    format: str = "jpg",
+    filename = "default_cat_combo",
+    is_gif = True,
+    is_say = True,
+    filter = "mono",
+    is_filtered = True,
+    text = "Hello",
+    fontSize = 20,
+    fontColor = "orange",
+    type = "square",
+    format = "jpg",
 )
 ```
 
@@ -164,4 +155,3 @@ The module is based on getting images from this site:
   Thanks for using my module or viewing my repository!!!
   <br>
 </h1>
-
