@@ -14,6 +14,8 @@
   <a href="#благодарности">Благодарности</a>
 </p>
 
+<a href="README.md"><kbd>**EN**</kbd></a>/<a href="README_RU.md"><kbd>**RU**</kbd></a>
+
 ## Установка
 
 #### Модуль уже доступен на PyPi!
