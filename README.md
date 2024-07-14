@@ -15,7 +15,11 @@
 
 </p>
 
+[![GitHub tag](https://img.shields.io/badge/repo-Random_Cat_Module-green)](https://github.com/Atom244/Random-Cat-Module/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](/LICENSE)  
 <a href="README.md"><kbd>**EN**</kbd></a>/<a href="README_RU.md"><kbd>**RU**</kbd></a>
+
+
 
 ## Installing
 
@@ -148,7 +152,8 @@ rnd_cat.cat_combo(
 
 The module is based on getting images from this site:
 
-- [CATAAS](https://cataas.com/)
+- [CATAAS](https://cataas.com/)  
+###### Released under [MIT](/LICENSE) by [@Atom244](https://github.com/Atom244).
 
 <h1 align="center">
   <br>
