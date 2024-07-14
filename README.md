@@ -70,7 +70,7 @@ import rnd_cat
 rnd_cat.cat_say(filename='default_cat_say_img', text='Hello', format='jpg')
 ```
 
-• cat_gif() - Will return a random cat saying editable text.  
+• cat_gif() - Will return a random cat gif.  
 Arguments: filename
 
 ```py
@@ -78,7 +78,7 @@ import rnd_cat
 rnd_cat.cat_gif(filename='default_cat_gif')
 ```
 
-• cat_say_edit() - Will return a random gif cat.  
+• cat_say_edit() - Will return a random cat saying editable text.  
 Arguments: filename, format, text, fontSize, fontColor
 
 ```py
