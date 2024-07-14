@@ -109,7 +109,7 @@ Arguments: filename, format, type
 
 ```py
 import rnd_cat
-cat_type(filename: str = "default_cat_type_img", format: str = "jpg", type: str = "square")
+cat_type(filename = "default_cat_type_img", format = "jpg", type = "square")
 ```
 
 • cat_filter() - Will return a random cat with image filtered by filter (blur, mono, negate).
@@ -118,7 +118,7 @@ Arguments: filename, format, filter
 
 ```py
 import rnd_cat
-cat_filter(filename: str = "default_cat_filter_img", format: str = "jpg", filter: str = "mono")
+cat_filter(filename = "default_cat_filter_img", format = "jpg", filter = "mono")
 ```
 
 <a href="https://pypi.org/project/rnd-cat/"><image src="https://raw.githubusercontent.com/Atom244/icons-for-projects/main/ggdd.png" alt="Flying cat" width="20%"></a>
