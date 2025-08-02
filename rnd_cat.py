@@ -2,7 +2,7 @@ import requests
 import urllib.request
 
 
-def cat(filename: str = "default_cat_img", format: str = "jpg"):
+def cat(filename: str = "default_cat_img", format: str = "jpg") -> None:
     """
     Will return a random cat.
     """
@@ -13,7 +13,7 @@ def cat(filename: str = "default_cat_img", format: str = "jpg"):
 
 def cat_say(
     filename: str = "default_cat_say_img", text: str = "Hello", format: str = "jpg"
-):
+) -> None:
     """
     Will return a random cat saying <text>. The text does not support special characters and emoticons or it may not work correctly.
     """
@@ -24,7 +24,7 @@ def cat_say(
         handler.write(img_data)
 
 
-def cat_gif(filename: str = "default_cat_gif"):
+def cat_gif(filename: str = "default_cat_gif") -> None:
     """
     Will return a random gif cat.
     """
@@ -37,7 +37,7 @@ def cat_say_edit(
     fontSize: int = 50,
     fontColor: str = "red",
     format: str = "jpg",
-):
+) -> None:
     """
     Will return a random cat saying <text> with text's <fontSize> and text's <fontColor>.
     """
@@ -50,7 +50,7 @@ def cat_say_edit(
 
 def cat_tag(
     filename: str = "default_cat_tag_img", format: str = "jpg", tag: str = "orange,cute"
-):
+) -> None:
     """
     Will return a random cat with a <tag>, You can combine multiple tags with <tag> separator.
     """
@@ -64,7 +64,7 @@ def cat_tag_say(
     format: str = "jpg",
     tag: str = "orange,cute",
     text: str = "Hello",
-):
+) -> None:
     """
     Will return a random cat with a <tag> and saying <text>.
     """
@@ -75,7 +75,7 @@ def cat_tag_say(
 
 def cat_type(
     filename: str = "default_cat_type_img", format: str = "jpg", type: str = "square"
-):
+) -> None:
     """
     Will return a random cat with image <type> (xsmall, small, medium or square).
     """
@@ -86,7 +86,7 @@ def cat_type(
 
 def cat_filter(
     filename: str = "default_cat_filter_img", format: str = "jpg", filter: str = "mono"
-):
+) -> None:
     """
     Will return a random cat with image filtered by <filter> (blur, mono, negate).
     """
@@ -106,7 +106,7 @@ def cat_combo(
     fontColor: str = "orange",
     type: str = "square",
     format: str = "jpg",
-):
+) -> None:
     """
     A mix of most of the arguments!
     """
