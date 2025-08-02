@@ -3,7 +3,6 @@ import builtins
 from unittest.mock import patch, mock_open
 import rnd_cat  # замените на имя своего файла, если он другой
 
-
 # ===== Фиктивные байты изображения =====
 FAKE_IMG = b"fake-image-data"
 
@@ -11,7 +10,7 @@ FAKE_IMG = b"fake-image-data"
 @pytest.mark.parametrize("func,args,url_part", [
     (rnd_cat.cat, {"filename": "test1"}, "/cat"),
     (rnd_cat.cat_say, {"filename": "test2", "text": "Hello"}, "/cat/says/Hello"),
-    (rnd_cat.cat_gif, {"filename": "test3"}, "/cat/gif"),
+    # cat_gif исключим отсюда, потому что он использует urlretrieve, а не requests.get
     (rnd_cat.cat_say_edit, {"filename": "test4", "text": "Hi", "fontSize": 30, "fontColor": "blue"}, "/cat/says/Hi"),
     (rnd_cat.cat_tag, {"filename": "test5", "tag": "cute"}, "/cat/cute"),
     (rnd_cat.cat_tag_say, {"filename": "test6", "tag": "cute", "text": "Hey"}, "/cat/cute/says/Hey"),
@@ -19,11 +18,11 @@ FAKE_IMG = b"fake-image-data"
     (rnd_cat.cat_filter, {"filename": "test8", "filter": "mono"}, "/cat?filter=mono"),
 ])
 def test_functions_with_requests(func, args, url_part):
-    with patch("requests.get") as mock_get, patch("builtins.open", mock_open()) as mock_file:
+    with patch("rnd_cat.requests.get") as mock_get, patch("builtins.open", mock_open()) as mock_file:
         mock_get.return_value.content = FAKE_IMG
         func(**args)
         mock_get.assert_called_once()
-        assert url_part in mock_get.call_args[0][0]  # Проверка URL
+        assert url_part in mock_get.call_args[0][0]
 
 
 def test_cat_gif_uses_urlretrieve():
